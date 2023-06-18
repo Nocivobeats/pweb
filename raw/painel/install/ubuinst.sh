@@ -242,7 +242,7 @@ curl -sS https://getcomposer.org/installer | php > /dev/null 2>&1
 mv composer.phar /usr/local/bin/composer > /dev/null 2>&1
 chmod +x /usr/local/bin/composer > /dev/null 2>&1
 cd /var/www/html || exit
-wget https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/gestorssh.zip > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/gestorssh.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
 unzip gestorssh.zip > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
@@ -372,8 +372,8 @@ install_continue2
 	sed -i "s/#PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 } > /dev/null
 echo ""
-figlet "ALAN-PWEB" | lolcat
-echo -e "                              \033[1;31mFt: @scottssh\033[1;36m"
+figlet "NovivoBeats" | lolcat
+echo -e "                              \033[1;31mFt: @NocivoBeats\033[1;36m"
 echo ""
 echo -e "\033[1;36mDEFINA UMA NOVA SENHA PARA\033[0m"
 echo -e "\033[1;36mO USUÁRIO ROOT DA VPS E\033[0m"
@@ -394,8 +394,8 @@ tst_bkp
 clear
 sed -i "s;upload_max_filesize = 2M;upload_max_filesize = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
-figlet "ALAN-PWEB" | lolcat
-echo -e "                              \033[1;31mFt: @scottssh\033[1;36m"
+figlet "NocivoBeats" | lolcat
+echo -e "                              \033[1;31mFt: @NocivoBeats\033[1;36m"
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!"
 echo ""
