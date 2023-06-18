@@ -1,6 +1,6 @@
 🔰GESTOR-SSH🔰
 
-🔹️PAINELWEB github.com/NocivoBeats
+🔹️PAINELWEB [NocivoBeats][http://www.nocivobeats.com]
       
 
 
