@@ -11,7 +11,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/pai
 
 🔑 Key Ilimitada
 ```
-alanssh
+pweb
 ```
 
 🔄 Sincronizador
