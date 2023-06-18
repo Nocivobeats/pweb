@@ -1,6 +1,6 @@
 🔰GESTOR-SSH🔰
 
-🔹️[PAINEL WEB NocivoBeats](http://www.nocivobeats.com)]
+🔹️[PAINEL NocivoBeats online veja Aqui](http://www.nocivobeats.com)
       
 
 
