@@ -1,7 +1,7 @@
 PAINEL WEB SSH 
 
-
-Painel para Gerenciamento vpn
+```
+Painel para Gerenciamento vpn```
 
 🔹️[PAINEL NocivoBeats online veja Aqui](http://www.nocivobeats.com)
       
@@ -12,7 +12,7 @@ Painel para Gerenciamento vpn
 bash <(wget -qO- https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/ubuinst.sh)
 ```
 
-🔑 Key Ilimitada
+🔑 Key/Chave
 ```
 pweb
 ```
@@ -21,5 +21,3 @@ pweb
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/sync/sincpainel.sh)
 ```
-
-🔥Use e abuse 🍷
