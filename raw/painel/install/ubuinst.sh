@@ -412,7 +412,7 @@ echo -e "\033[1;36m 🔑SENHA:\033[1;37m $pwdroot\033[0m"
 echo -e "------------------------------------------------------" | lolcat
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@NocivoBeats\033[0m"
+echo -e "\033[1;33m Nao sou dono do codigo, nao sou dono do painel apenas hospedei o codigo \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@NocivoBeats\033[0m"
 echo ""
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar...\033[1;32m! \033[0m"; read
 systemctl restart apache2 > /dev/null 2>&1
