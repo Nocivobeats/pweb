@@ -1,7 +1,7 @@
 PAINEL WEB SSH 
 
-```
-Painel para Gerenciamento vpn```
+
+Painel para Gerenciamento VPN
 
 🔹️[PAINEL NocivoBeats online veja Aqui](http://www.nocivobeats.com)
       
