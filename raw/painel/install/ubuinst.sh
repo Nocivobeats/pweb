@@ -138,7 +138,7 @@ cat /dev/null > ~/.bash_history && history -c
 rm /bin/ubuinst* > /dev/null 2>&1
 exit;
 else
-  echo -e 'by: alanssh' >/usr/lib/telegram
+  echo -e 'by: NocivoBeats' >/usr/lib/telegram
   msg -bar
   echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
   msg -bar
@@ -191,15 +191,15 @@ function install_continue {
 function install_continue2 {
 cd /bin || exit
 rm pweb > /dev/null 2>&1
-wget https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/pweb > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/pweb > /dev/null 2>&1
 chmod 777 pweb > /dev/null 2>&1
 clear
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
 cd /bin/ppweb || exit
 rm *.sh ver* > /dev/null 2>&1
-wget https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/verifatt.sh > /dev/null 2>&1
-wget https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/verpweb > /dev/null 2>&1
-wget https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/verweb > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/verifatt.sh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/verpweb > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/verweb > /dev/null 2>&1
 verp=$(sed -n '1 p' /bin/ppweb/verpweb| sed -e 's/[^0-9]//ig') &>/dev/null
 verw=$(sed -n '1 p' /bin/ppweb/verweb| sed -e 's/[^0-9]//ig') &>/dev/null
 echo -e "$verp" >/bin/ppweb/attpweb
@@ -329,10 +329,10 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-figlet "ALAN-PWEB" | lolcat
-echo -e "                              \033[1;31mFt: @scottssh\033[1;36m"
+figlet "NocivoBeats" | lolcat
+echo -e "                              \033[1;31mFt: @NocivoBeats\033[1;36m"
 echo ""
-chave=$(curl -sSL "https://raw.githubusercontent.com/ScottBrabo/aNoobisPweb/main/raw/painel/install/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/Nocivobeats/pweb/main/raw/painel/install/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
@@ -412,7 +412,7 @@ echo -e "\033[1;36m 🔑SENHA:\033[1;37m $pwdroot\033[0m"
 echo -e "------------------------------------------------------" | lolcat
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@scottssh\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@NocivoBeats\033[0m"
 echo ""
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar...\033[1;32m! \033[0m"; read
 systemctl restart apache2 > /dev/null 2>&1
